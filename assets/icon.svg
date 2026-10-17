@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16222c"/>
+      <stop offset="1" stop-color="#070b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.62" cy="0.3" r="0.5">
+      <stop offset="0" stop-color="#d9822b" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#d9822b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aurora" cx="0.15" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#6cc3e8" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#6cc3e8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="peak" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#e8f6fd"/>
+      <stop offset="0.5" stop-color="#6cc3e8"/>
+      <stop offset="1" stop-color="#1d5470"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff1cf"/>
+      <stop offset="0.55" stop-color="#f0a24a"/>
+      <stop offset="1" stop-color="#c8641c"/>
+    </radialGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#aurora)"/>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#glow)"/>
+  <circle cx="512" cy="512" r="380" fill="none" stroke="#f0a24a" stroke-opacity="0.45" stroke-width="22" stroke-dasharray="70 46"/>
+  <circle cx="624" cy="352" r="128" fill="url(#sun)"/>
+  <path d="M128 768 L400 320 L544 544 L640 416 L896 768 Z" fill="url(#peak)"/>
+  <path d="M400 320 L328 440 L400 416 L456 464 Z M640 416 L592 496 L640 480 L688 520 Z" fill="#ffffff" opacity="0.92"/>
+</svg>
